@@ -1,0 +1,13 @@
+@prefix :     <http://usefulinc.com/ns/doap#>.
+@prefix dc:   <http://purl.org/dc/terms/>.
+@prefix foaf: <http://xmlns.com/foaf/0.1/>.
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#>.
+@prefix xsd:  <http://www.w3.org/2001/XMLSchema#>.
+
+[]
+  a :Project;
+  :name "Alt-Test-Warnings-ButEUMM";
+  :shortdesc "alternative distribution of Test::Warnings, using ExtUtils::MakeMaker";
+  :developer [ a foaf:Person; foaf:name "Karen Etheridge"; foaf:mbox <mailto:ether@cpan.org> ];
+  :license <http://dev.perl.org/licenses/>;
+  :programming-language "Perl".

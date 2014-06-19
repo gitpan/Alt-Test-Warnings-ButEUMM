@@ -1,0 +1,21 @@
+NAME
+    Alt::Test::Warnings::ButEUMM - alternative distribution of Test::Warnings,
+    using ExtUtils::MakeMaker
+
+SYNOPSIS
+       use Test::Warnings;
+
+DESCRIPTION
+    This is an alternative distribution of Test::Warnings, allowing easier
+    deployment on very old versions of Perl. If you have had no problems
+    installing Test::Warnings, then you do not need this module!
+
+    Version 0.001 of Alt::Test::Warnings::ButEUMM includes version 0.014 of
+    Test::Warnings.
+
+SEE ALSO
+    Alt, Test::Warnings.
+
+COPYRIGHT, LICENCE, AND DISCLAIMER OF WARRANTIES
+    This file is distributed under the same conditions as Test::Warnings.
+

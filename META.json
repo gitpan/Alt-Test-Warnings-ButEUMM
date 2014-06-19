@@ -1,0 +1,70 @@
+{
+   "abstract" : "alternative distribution of Test::Warnings, using ExtUtils::MakeMaker",
+   "author" : [
+      "Karen Etheridge <ether@cpan.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Inkt::Profile::Simple version 0.022, CPAN::Meta::Converter version 2.140640",
+   "license" : [
+      "perl_5"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Alt-Test-Warnings-ButEUMM",
+   "no_index" : {
+      "directory" : [
+         "eg",
+         "examples",
+         "inc",
+         "t",
+         "xt"
+      ],
+      "package" : [
+         "Test::Warnings"
+      ]
+   },
+   "optional_features" : {},
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.17"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Exporter" : "0",
+            "Test::Builder" : "0",
+            "parent" : "0",
+            "perl" : "5.006",
+            "strict" : "0",
+            "warnings" : "0"
+         }
+      },
+      "test" : {
+         "recommends" : {
+            "CPAN::Meta" : "0",
+            "CPAN::Meta::Requirements" : "2.120900"
+         },
+         "requires" : {
+            "ExtUtils::MakeMaker" : "0",
+            "File::Spec::Functions" : "0",
+            "List::Util" : "0",
+            "Test::Deep" : "0",
+            "Test::More" : "0.94",
+            "Test::Tester" : "0.108",
+            "if" : "0",
+            "version" : "0"
+         }
+      }
+   },
+   "provides" : {
+      "Alt::Test::Warnings::ButEUMM" : {
+         "file" : "lib/Alt/Test/Warnings/ButEUMM.pm",
+         "version" : "0.001"
+      }
+   },
+   "release_status" : "stable",
+   "version" : "0.001"
+}
